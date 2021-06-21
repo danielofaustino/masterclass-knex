@@ -4,10 +4,10 @@ module.exports = {
   development: {
     client: 'mssql',
     connection: {
-      database: 'danbase',
+      database: 'fastpro',
       host: '127.0.0.1',
       user: 'sa',
-      password: 'Anl92br.',
+      password: 'fastpro21',
     },
     migrations: {
       tableName: 'knex_migrations',

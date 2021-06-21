@@ -1,8 +1,12 @@
 const express = require('express');
 
+const morgan = require('morgan');
+
 const app = express();
 
 const knex = require('./database');
+
+app.use(morgan('dev'))
 
 const routes = require('./routes');
 
